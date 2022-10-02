@@ -20,6 +20,7 @@ namespace aps_tutorial1.Controllers
 
         public IActionResult Index()
         {
+            ViewData["subheader"] = "Sub header";
             return View();
         }
 
